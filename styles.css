@@ -1,0 +1,62 @@
+body {
+  font-family: Verdana, Geneva, sans-serif; 
+}
+
+.body {
+display: flex 
+flex-direction: row-reverse
+justify-content: center
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
+  grid-template-rows: auto auto; /* Rows adjust to content */
+  grid-gap: 10px; /* Gap between grid items */
+  text-align: center;
+  color: #FFF;
+}
+
+.grid-cell-1, .grid-cell-2, .grid-cell-3,
+.grid-cell-4, .grid-cell-5, .grid-cell-6 {
+  background-color: #509c6d;
+  padding: 25px;
+  border-radius: 6px;
+}
+
+p {
+  color: rgb(19, 98, 39); 
+}
+
+h1 {
+  color: #ff00b7; 
+}
+
+body {
+  color: whitesmoke
+}
+ .flex-container {
+            display: flex; /* Turns the crossbow on! (lol) */
+            flex-direction: row; 
+            justify-content: space-around; 
+            align-items: center; 
+            background-color: #36754f;
+            padding: 15px;
+            border-radius: 8px;
+            min-height: 150px; 
+        }
+
+        .flex-item {
+            background-color: #ac598f;
+            color: white;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 5px;
+            text-align: center;
+            flex: 1; 
+        }
+
+        .flex-item.large {
+            flex-grow: 2; 
+            background-color: #2c28a7;
+        }

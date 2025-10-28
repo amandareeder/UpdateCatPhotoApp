@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatPhotoAppUpdate</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+    <body style="background-color: #3EB489;">
+    <main>
+      <h1>CatPhotoAppUpdate</h1>
+      <section>
+        <h2>Cat Photos</h2>
+        <p>Everyone loves <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">cute cats</a> online!From kittens to an adult maine coons-cats are adorable!</p>
+        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+        <a href="https://freecatphotoapp.com"><img src="https://static.wixstatic.com/media/74e7fb_3057c94c76e34d5d82b59d47566ed84c~mv2.jpg/v1/fill/w_276,h_288,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/74e7fb_3057c94c76e34d5d82b59d47566ed84c~mv2.jpg" alt="A cute calico cat sitting upright on blue carpet."></a>
+      </section>
+      <section>
+        <h2>Cat Lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+          <li>catnip</li>
+          <li>laser pointers</li>
+          <li>chicken nuggets</li>
+        </ul>
+        <figure>
+          <img src="https://s7d1.scene7.com/is/image/mcdonalds/mcdonalds-Chicken-McNuggets-6-pieces-2:1-3-product-tile-desktop?wid=829&hei=515&dpr=off" height="300" Width="300" alt="Image of six pieces of mcdonalds chicken nuggets and red dipping sauce">
+          <figcaption>Cats <em>adore</em> chicken nuggets.</figcaption>  
+        </figure>
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>going to the vet</li>
+          <li>loud noises</li>
+          <li>dogs</li>
+        </ol>
+        <figure>
+          <img src="https://i.redd.it/oyor84x48fn91.jpg" height="300" Width="300" alt="Two tabby kittens sleeping together on a couch.">
+          <figcaption>Cats <strong>hate</strong> dogs. Totally. All dogs. No good dogs (this is sarcasm as the image above shows a cat and a dog being friendly toward each other)</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Cat Form</h2>
+        <p>Some fun questions for all the cat owners out there! We want to see <em>your</em> cats!</em></p>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+          </fieldset>
+          <fieldset>
+            <legend>Does your cat love baths?</legend>
+            <label><input id="loves baths" type="radio" name="loves baths-hates baths" value="loves baths" checked> Loves baths</label>
+            <label><input id="hates baths" type="radio" name="loves baths-hates baths" value="hates baths"> Hates baths</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      
+    <h2>Some fun facts about your feline friends!</h2>
+      <div class="container">
+  <div class="grid-cell-1">They can jump up to 5 times their height!</div>
+  <div class="grid-cell-2">Their nose print is similar to a human fingerprint.</div>
+  <div class="grid-cell-3">They can't taste sweetness - but also can't get cavities.</div>
+  <div class="grid-cell-4">They spend up to 70% of their lives sleeping (Who else is jealous?)</div>
+  <div class="grid-cell-5">Cats have 18 toes total.</div>
+  <div class="grid-cell-6">A group of cats is called a clowder while a group of kittens is a kindle!</div>
+</div>
+<h3>BONUS - did you know?</h3>
+   <div class="flex-container">
+        <div class="flex-item">The oldest cat lived 38 years</div>
+        <div class="flex-item large">The wealthiest cat is named blackie</div>
+        <div class="flex-item">Cats are lactose intolerant</div>
+    </div>
+
+
+    <h2>Were you always meant to be a cat person or are you really more of a dog person? (Check out our other website, "Dog Photos" at https://thiswebsiteisnotreallol.yoo)</h2>
+    
+    <div class="question-container">
+        <h3>Do you prefer going out with friends, or staying in to relax?</h3>
+        <ul>
+            <li><input type="radio" name="q1" value="a"> I enjoy going out and exploring</li>
+            <li><input type="radio" name="q1" value="b"> Nah I want to nap during all my free time</li>
+            <li><input type="radio" name="q1" value="c"> Wdym go out? I have all my favorite hobbies at home.</li>
+            <li><input type="radio" name="q1" value="d"> Out with my friends all the way!</li>
+        </ul>
+    </div>
+
+    <div class="question-container">
+        <h3>Do you like having a quiet, serene space, or a more energetic and structured environment?</h3>
+        <ul>
+            <li><input type="radio" name="q2" value="a"> I love to go with the flow and have fun</li>
+            <li><input type="radio" name="q2" value="b"> I like a quiet home</li>
+            <li><input type="radio" name="q2" value="c"> Neutral</li>
+            <li><input type="radio" name="q2" value="d"> More structured</li>
+        </ul>
+    </div>
+
+    <button type="submit">Submit Quiz</button>
+  
+    <p>If you answered a or d for both questions - you're definitely a dog person!</p>
+  </main>
+    <footer>
+      <p>
+        No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
+    </footer>
+  </body>
+</html>
